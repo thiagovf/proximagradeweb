@@ -25,6 +25,13 @@
 			<version>7.1.1.Final</version>
 			<type>pom</type>
 		</dependency>
+		<dependency>
+			<groupId>proximagradeejbclient</groupId>
+			<artifactId>proximagradeejbclient</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/src/main/webapp/WEB-INF/lib/proximagradeejbclient.jar</systemPath>
+		</dependency>
 	</dependencies>
 	<profiles>
 		<profile>
